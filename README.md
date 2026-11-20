@@ -2,23 +2,25 @@
 
 **Tu energía, como una batería. Sin números, sin presión.**
 
-Mossu es una app para Android que te ayuda a registrar cómo está tu energía a lo largo del día. La energía no se marca con números ni porcentajes: se dibuja como una batería que llenas o vacías con el dedo. Si quieres, añades una nota. Con el tiempo, el historial te deja ver cómo van tus días.
+Mossu es una app para Android que te ayuda a registrar cómo está tu energía a lo largo del día. La energía no se marca con números ni porcentajes: se dibuja como una batería que llenas o vacías con el dedo. Si quieres, añades una nota y los sucesos del día: lo que ha pasado y ha cambiado tu energía. Con el tiempo, el historial te deja ver cómo van tus días.
 
 Está pensada sobre todo para personas neurodivergentes (autismo, TDAH…), con fatiga o con energía limitada, y para cualquiera que necesite repartir sus fuerzas sin sentirse juzgada. Si conoces la «teoría de las cucharas», es la misma idea, en forma de batería.
 
-> Versión 0.1.0 · En español · Gratuita · Hecha por Utsiris Labs
+> Versión 0.2.0 · En español · Gratuita · Hecha por Utsiris Labs
 
 <p>
-<img src="capturas/mossu-mi-dia-claro.png" width="200" alt="Mi día en modo claro: la batería casi llena y la lista de registros de hoy">
-<img src="capturas/mossu-registro-claro.png" width="200" alt="Pantalla de registro: la batería para ajustar y una nota opcional">
-<img src="capturas/mossu-historial-claro.png" width="200" alt="Historial: una tarjeta por día con sus registros">
-<img src="capturas/mossu-ajustes-claro.png" width="200" alt="Ajustes: apariencia, movimiento y contacto">
+<img src="capturas/mossu-mi-dia-claro.jpg" width="160" alt="Mi día en modo claro: la batería en reserva y la lista de registros del día">
+<img src="capturas/mossu-registro-claro.jpg" width="160" alt="Registro: la batería, los sucesos que elegiste y una nota opcional">
+<img src="capturas/mossu-impacto-claro.jpg" width="160" alt="Cómo ha sido un suceso esta vez: cinco niveles de impacto">
+<img src="capturas/mossu-sucesos-claro.jpg" width="160" alt="Tus sucesos, agrupados en los que quitan energía, los que dejan igual y los que dan energía">
+<img src="capturas/mossu-mi-espacio-claro.jpg" width="160" alt="Mi espacio: sucesos, plan para la reserva y ajustes">
 </p>
 <p>
-<img src="capturas/mossu-mi-dia-oscuro.png" width="200" alt="Mi día en modo oscuro">
-<img src="capturas/mossu-registro-oscuro.png" width="200" alt="Registro en modo oscuro">
-<img src="capturas/mossu-historial-oscuro.png" width="200" alt="Historial en modo oscuro">
-<img src="capturas/mossu-ajustes-oscuro.png" width="200" alt="Ajustes en modo oscuro">
+<img src="capturas/mossu-mi-dia-oscuro.jpg" width="160" alt="Mi día en modo oscuro">
+<img src="capturas/mossu-registro-oscuro.jpg" width="160" alt="Registro en modo oscuro">
+<img src="capturas/mossu-impacto-oscuro.jpg" width="160" alt="Impacto de un suceso en modo oscuro">
+<img src="capturas/mossu-sucesos-oscuro.jpg" width="160" alt="Tus sucesos en modo oscuro">
+<img src="capturas/mossu-mi-espacio-oscuro.jpg" width="160" alt="Mi espacio en modo oscuro">
 </p>
 
 ## Qué hace
@@ -26,9 +28,11 @@ Está pensada sobre todo para personas neurodivergentes (autismo, TDAH…), con 
 - **Mi día:** tu batería de hoy y la lista de tus registros del día.
 - **Registrar:** tocas o deslizas la batería hasta donde estás y, si quieres, escribes una nota. Puedes registrar las veces que quieras, a la hora que quieras.
 - **Un registro al empezar el día:** la primera vez que abres la app cada día, te pregunta cómo estás. Se puede omitir siempre, y no insiste.
+- **Sucesos:** cosas que pasan y cambian tu energía (una reunión, una mala noche, un paseo). Los creas una vez, diciendo si te quitan o te dan energía, y al registrar solo tienes que tocarlos. La batería se mueve sola con ellos, y siempre puedes ajustarla tú. Si un día algo te afectó distinto de lo normal, lo cambias solo para esa vez.
+- **Reserva:** cuando los sucesos te llevan por debajo de vacía, Mossu te lo dice sin alarmas: «En reserva». Si has escrito un plan para esos momentos, lo tienes a un toque.
 - **Editar y borrar** los registros de hoy.
-- **Historial:** tus días con registros, uno por tarjeta. Los días sin registros no aparecen.
-- **Ajustes:** apariencia (clara, oscura o como el móvil), animación de la batería y contacto.
+- **Historial:** tus días con registros, uno por tarjeta, con sus sucesos. Los días sin registros no aparecen.
+- **Mi espacio:** tus sucesos, tu plan para la reserva y los ajustes (apariencia clara, oscura o como el móvil, animación de la batería y contacto).
 
 ## Cómo instalarla
 
@@ -38,7 +42,8 @@ Está pensada sobre todo para personas neurodivergentes (autismo, TDAH…), con 
 
 Necesitas Android 8.0 o superior.
 
-**Para actualizar:** descarga la nueva versión e instálala encima. Tus registros se conservan.
+**Si ya tienes la versión 0.1.0:** la 0.2.0 no se instala encima, porque la app ha cambiado de firma. Desinstala primero la 0.1.0 y luego instala la 0.2.0. Al desinstalar se borran los registros que tenías: es un cambio de una sola vez. A partir de la 0.2.0, las versiones nuevas se instalan encima y conservan tus datos.
+
 **Ojo:** desinstalar Mossu borra tus registros.
 
 ## Accesibilidad: qué se ha cuidado y por qué
@@ -51,7 +56,7 @@ Mossu nace de ocho principios de diseño. La accesibilidad no es un añadido: es
 
 **Sin presión ni culpa.** No hay rachas, contadores de días ni mensajes de «llevas X días sin registrar». Saltarse un día no tiene ninguna consecuencia.
 
-**Poco esfuerzo.** Todo es opcional salvo la batería: la nota, el registro de cada mañana y cuántas veces registras. Guardar es silencioso: la batería y la lista cambian, y no hace falta cerrar avisos.
+**Poco esfuerzo.** Todo es opcional salvo la batería: la nota, los sucesos, el registro de cada mañana y cuántas veces registras. Guardar es silencioso: la batería y la lista cambian, y no hace falta cerrar avisos.
 
 **Silenciosa.** Ni sonidos, ni vibración, ni notificaciones. Nada que reclame tu atención.
 
@@ -82,7 +87,7 @@ Textos completos: [Política de privacidad](PRIVACIDAD.md) · [Condiciones de us
 
 ## Lo que todavía no hace
 
-Mossu está empezando. La siguiente versión añadirá **sucesos**: cosas que pasan y cambian tu energía (una reunión, una mala noche, un paseo), para ver qué te vacía y qué te recarga. Más adelante: síntomas, recordatorios que configures tú y estadísticas.
+Mossu está empezando. Más adelante llegarán los síntomas (enlazados a tus sucesos), recordatorios que configures tú y estadísticas que te dejen ver qué te vacía y qué te recarga.
 
 ## Contacto
 
